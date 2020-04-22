@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="23ebb61b3e854e9d9ffae9f5cd610a20" Name="Diagram1">
+        <EntityTypeShape EntityType="cricketModel.Cricketer_Details" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.Cricketer_IPL_Statstics" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.Cricketer_ODI_Statistics" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.Cricketer_Test_Statistics" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.Cricketer" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.login" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cricketModel.Photo" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="cricketModel.FK__Cricketer__Crick__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="cricketModel.FK__Cricketer_IP__ID__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="cricketModel.FK__Cricketer__Crick__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="cricketModel.FK__Cricketer__Crick__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,116 @@
+﻿
+@model Ipl.Models.login
+@{
+                /**/
+
+}
+
+
+<h2>SignUp Form</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>Registration </h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.First_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.First_Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.First_Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Last_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10 ">
+            @Html.TextBoxFor(model => model.Last_Name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Last_Name, "", new { @class = "text-danger" })
+        </div>
+
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Birth_Date, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10 ">
+            @Html.TextBoxFor(model => model.Birth_Date, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Birth_Date, "", new { @class = "text-danger" })
+        </div>
+
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10 ">
+            @Html.TextBoxFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+        </div>
+
+
+
+    </div>
+
+
+
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.Usertype, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10 ">
+                @Html.TextBoxFor(model => model.Usertype, new { htmlAttributes = new { @class = "form-control", placeholder = "User/Admin" } })
+                @Html.ValidationMessageFor(model => model.Usertype, "", new { @class = "text-danger" })
+            </div>
+
+
+        </div>*@
+    <div class="form-group">
+        @Html.LabelFor(model => model.username, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10 ">
+            @Html.TextBoxFor(model => model.username, new { htmlAttributes = new { @class = "form-control", placeholder = "User/Admin", type = "User/Admin" } })
+
+
+            @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+        </div>
+
+
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.userpwd, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10 ">
+            @Html.PasswordFor(model => model.userpwd, new { htmlAttributes = new { @class = "form-control", placeholder = "Password", type = "password" } })
+            @Html.ValidationMessageFor(model => model.userpwd, "", new { @class = "text-danger" })
+        </div>
+
+
+    </div>
+
+    <div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Usertype, htmlAttributes: new { @class = "control-label col-md-2" })
+
+
+            @Html.DropDownList("UserType", new List<SelectListItem>
+     {
+        new SelectListItem{Text="USER  ", Value="User", Selected=true},   @*Value of selectlistitem is matched with SearchBy*@ //vlue is directely searched from dropdown after clicking
+          new SelectListItem{Text="ADMIN  ",Value="Admin"},
+}, "Choose Type");
+
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Register" class="btn btn-default" />
+        </div>
+
+    </div>
+}
+@section Scripts
+    {
+    @Scripts.Render("~/bundles/jqueryval")
+}

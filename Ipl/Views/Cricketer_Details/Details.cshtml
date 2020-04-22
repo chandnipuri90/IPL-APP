@@ -1,0 +1,60 @@
+﻿@model Ipl.Models.Cricketer_Details
+
+@{
+
+    Layout = "~/Views/Shared/internal_Layout.cshtml";
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cricketer_Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Team)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ODI_Runs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ODI_Runs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Test_Runs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Test_Runs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wickets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wickets)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cricketer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cricketer.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Details_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

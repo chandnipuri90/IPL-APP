@@ -1,0 +1,252 @@
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll.config
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.pdb
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe.config
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.rsp
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe.config
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.rsp
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.AppContext.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Console.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Compression.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Claims.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.ValueTuple.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe.config
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.rsp
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\WebGrease.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.pdb
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CoreCompileInputs.cache
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CopyComplete
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.pdb
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.dll
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.xml
+C:\Users\chandni1\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csprojAssemblyReference.cache
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll.config
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.pdb
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe.config
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.rsp
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe.config
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.rsp
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.AppContext.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Console.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Compression.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Claims.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.ValueTuple.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe.config
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.rsp
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\WebGrease.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.pdb
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csprojAssemblyReference.cache
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CoreCompileInputs.cache
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CopyComplete
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.dll
+C:\Users\chandni1\Desktop\Desktop\INCEDO\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.pdb
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll.config
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Ipl.pdb
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.exe.config
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csc.rsp
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.exe.config
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\csi.rsp
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.AppContext.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Console.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Compression.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.IO.Pipes.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Claims.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.ValueTuple.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.exe.config
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\vbc.rsp
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\WebGrease.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\EntityFramework.SqlServer.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\PagedList.Mvc.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Helpers.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Mvc.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Optimization.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.Razor.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\System.Web.WebPages.Razor.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Newtonsoft.Json.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Antlr3.Runtime.pdb
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csprojAssemblyReference.cache
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CoreCompileInputs.cache
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.csproj.CopyComplete
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.dll
+C:\Users\chandni1\Desktop\MVC_Practice Projects\MVC_Practice Projects\Ipl\Ipl\obj\Debug\Ipl.pdb

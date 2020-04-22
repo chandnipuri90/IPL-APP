@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cricketModelStoreContainer" CdmEntityContainer="incedoEntities">
+    <EntitySetMapping Name="Cricketer_Details">
+      <EntityTypeMapping TypeName="cricketModel.Cricketer_Details">
+        <MappingFragment StoreEntitySet="Cricketer_Details">
+          <ScalarProperty Name="Details_ID" ColumnName="Details_ID" />
+          <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+          <ScalarProperty Name="Team" ColumnName="Team" />
+          <ScalarProperty Name="ODI_Runs" ColumnName="ODI_Runs" />
+          <ScalarProperty Name="Test_Runs" ColumnName="Test_Runs" />
+          <ScalarProperty Name="Wickets" ColumnName="Wickets" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cricketer_IPL_Statstics">
+      <EntityTypeMapping TypeName="cricketModel.Cricketer_IPL_Statstics">
+        <MappingFragment StoreEntitySet="Cricketer_IPL_Statstics">
+          <ScalarProperty Name="IPL_Id" ColumnName="IPL_Id" />
+          <ScalarProperty Name="Team_Name" ColumnName="Team_Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cricketer_ODI_Statistics">
+      <EntityTypeMapping TypeName="cricketModel.Cricketer_ODI_Statistics">
+        <MappingFragment StoreEntitySet="Cricketer_ODI_Statistics">
+          <ScalarProperty Name="ODI_ID" ColumnName="ODI_ID" />
+          <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Half_Century" ColumnName="Half_Century" />
+          <ScalarProperty Name="Century" ColumnName="Century" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cricketer_Test_Statistics">
+      <EntityTypeMapping TypeName="cricketModel.Cricketer_Test_Statistics">
+        <MappingFragment StoreEntitySet="Cricketer_Test_Statistics">
+          <ScalarProperty Name="Test_ID" ColumnName="Test_ID" />
+          <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Half_Century" ColumnName="Half_Century" />
+          <ScalarProperty Name="Century" ColumnName="Century" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cricketers">
+      <EntityTypeMapping TypeName="cricketModel.Cricketer">
+        <MappingFragment StoreEntitySet="Cricketers">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ODI" ColumnName="ODI" />
+          <ScalarProperty Name="Test" ColumnName="Test" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logins">
+      <EntityTypeMapping TypeName="cricketModel.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="login_id" ColumnName="login_id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="userpwd" ColumnName="userpwd" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Birth_Date" ColumnName="Birth_Date" />
+          <ScalarProperty Name="Usertype" ColumnName="Usertype" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="RememberMe" ColumnName="RememberMe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="cricketModel.Photo">
+        <MappingFragment StoreEntitySet="Photos">
+          <ScalarProperty Name="Photo_Id" ColumnName="Photo_Id" />
+          <ScalarProperty Name="Photo1" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

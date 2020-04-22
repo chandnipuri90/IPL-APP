@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="cricketModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cricketer_Details">
+          <Key>
+            <PropertyRef Name="Details_ID" />
+          </Key>
+          <Property Name="Details_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cricketer_ID" Type="int" />
+          <Property Name="Team" Type="varchar" MaxLength="50" />
+          <Property Name="ODI_Runs" Type="int" />
+          <Property Name="Test_Runs" Type="int" />
+          <Property Name="Wickets" Type="int" />
+        </EntityType>
+        <EntityType Name="Cricketer_IPL_Statstics">
+          <Key>
+            <PropertyRef Name="IPL_Id" />
+          </Key>
+          <Property Name="IPL_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Team_Name" Type="varchar" MaxLength="50" />
+          <Property Name="ID" Type="int" />
+        </EntityType>
+        <EntityType Name="Cricketer_ODI_Statistics">
+          <Key>
+            <PropertyRef Name="ODI_ID" />
+          </Key>
+          <Property Name="ODI_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cricketer_ID" Type="int" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Half_Century" Type="int" />
+          <Property Name="Century" Type="int" />
+        </EntityType>
+        <EntityType Name="Cricketer_Test_Statistics">
+          <Key>
+            <PropertyRef Name="Test_ID" />
+          </Key>
+          <Property Name="Test_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Cricketer_ID" Type="int" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Half_Century" Type="int" />
+          <Property Name="Century" Type="int" />
+        </EntityType>
+        <EntityType Name="Cricketers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="ODI" Type="int" />
+          <Property Name="Test" Type="int" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="login_id" />
+          </Key>
+          <Property Name="login_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="varchar" MaxLength="255" />
+          <Property Name="userpwd" Type="nvarchar" MaxLength="255" />
+          <Property Name="First_Name" Type="varchar" MaxLength="150" />
+          <Property Name="Last_Name" Type="varchar" MaxLength="150" />
+          <Property Name="Birth_Date" Type="datetime" />
+          <Property Name="Usertype" Type="varchar" MaxLength="150" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="30" />
+          <Property Name="RememberMe" Type="bit" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="LastLoginDate" Type="datetime" />
+          <Property Name="IsActive" Type="bit" />
+        </EntityType>
+        <EntityType Name="Photos">
+          <Key>
+            <PropertyRef Name="Photo_Id" />
+          </Key>
+          <Property Name="Photo_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Photo" Type="nvarchar" MaxLength="300" />
+        </EntityType>
+        <Association Name="FK__Cricketer__Crick__38996AB5">
+          <End Role="Cricketers" Type="Self.Cricketers" Multiplicity="0..1" />
+          <End Role="Cricketer_ODI_Statistics" Type="Self.Cricketer_ODI_Statistics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_ODI_Statistics">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer__Crick__3B75D760">
+          <End Role="Cricketers" Type="Self.Cricketers" Multiplicity="0..1" />
+          <End Role="Cricketer_Test_Statistics" Type="Self.Cricketer_Test_Statistics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_Test_Statistics">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer__Crick__3E52440B">
+          <End Role="Cricketers" Type="Self.Cricketers" Multiplicity="0..1" />
+          <End Role="Cricketer_Details" Type="Self.Cricketer_Details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_Details">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer_IP__ID__440B1D61">
+          <End Role="Cricketers" Type="Self.Cricketers" Multiplicity="0..1" />
+          <End Role="Cricketer_IPL_Statstics" Type="Self.Cricketer_IPL_Statstics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_IPL_Statstics">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="cricketModelStoreContainer">
+          <EntitySet Name="Cricketer_Details" EntityType="Self.Cricketer_Details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cricketer_IPL_Statstics" EntityType="Self.Cricketer_IPL_Statstics" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cricketer_ODI_Statistics" EntityType="Self.Cricketer_ODI_Statistics" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cricketer_Test_Statistics" EntityType="Self.Cricketer_Test_Statistics" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cricketers" EntityType="Self.Cricketers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Photos" EntityType="Self.Photos" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Cricketer__Crick__38996AB5" Association="Self.FK__Cricketer__Crick__38996AB5">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_ODI_Statistics" EntitySet="Cricketer_ODI_Statistics" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer__Crick__3B75D760" Association="Self.FK__Cricketer__Crick__3B75D760">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_Test_Statistics" EntitySet="Cricketer_Test_Statistics" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer__Crick__3E52440B" Association="Self.FK__Cricketer__Crick__3E52440B">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_Details" EntitySet="Cricketer_Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer_IP__ID__440B1D61" Association="Self.FK__Cricketer_IP__ID__440B1D61">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_IPL_Statstics" EntitySet="Cricketer_IPL_Statstics" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="cricketModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cricketer_Details">
+          <Key>
+            <PropertyRef Name="Details_ID" />
+          </Key>
+          <Property Name="Details_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cricketer_ID" Type="Int32" />
+          <Property Name="Team" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ODI_Runs" Type="Int32" />
+          <Property Name="Test_Runs" Type="Int32" />
+          <Property Name="Wickets" Type="Int32" />
+          <NavigationProperty Name="Cricketer" Relationship="Self.FK__Cricketer__Crick__3E52440B" FromRole="Cricketer_Details" ToRole="Cricketers" />
+        </EntityType>
+        <EntityType Name="Cricketer_IPL_Statstics">
+          <Key>
+            <PropertyRef Name="IPL_Id" />
+          </Key>
+          <Property Name="IPL_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Team_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ID" Type="Int32" />
+          <NavigationProperty Name="Cricketer" Relationship="Self.FK__Cricketer_IP__ID__440B1D61" FromRole="Cricketer_IPL_Statstics" ToRole="Cricketers" />
+        </EntityType>
+        <EntityType Name="Cricketer_ODI_Statistics">
+          <Key>
+            <PropertyRef Name="ODI_ID" />
+          </Key>
+          <Property Name="ODI_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cricketer_ID" Type="Int32" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Half_Century" Type="Int32" />
+          <Property Name="Century" Type="Int32" />
+          <NavigationProperty Name="Cricketer" Relationship="Self.FK__Cricketer__Crick__38996AB5" FromRole="Cricketer_ODI_Statistics" ToRole="Cricketers" />
+        </EntityType>
+        <EntityType Name="Cricketer_Test_Statistics">
+          <Key>
+            <PropertyRef Name="Test_ID" />
+          </Key>
+          <Property Name="Test_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Cricketer_ID" Type="Int32" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Half_Century" Type="Int32" />
+          <Property Name="Century" Type="Int32" />
+          <NavigationProperty Name="Cricketer" Relationship="Self.FK__Cricketer__Crick__3B75D760" FromRole="Cricketer_Test_Statistics" ToRole="Cricketers" />
+        </EntityType>
+        <EntityType Name="Cricketer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ODI" Type="Int32" />
+          <Property Name="Test" Type="Int32" />
+          <NavigationProperty Name="Cricketer_Details" Relationship="Self.FK__Cricketer__Crick__3E52440B" FromRole="Cricketers" ToRole="Cricketer_Details" />
+          <NavigationProperty Name="Cricketer_IPL_Statstics" Relationship="Self.FK__Cricketer_IP__ID__440B1D61" FromRole="Cricketers" ToRole="Cricketer_IPL_Statstics" />
+          <NavigationProperty Name="Cricketer_ODI_Statistics" Relationship="Self.FK__Cricketer__Crick__38996AB5" FromRole="Cricketers" ToRole="Cricketer_ODI_Statistics" />
+          <NavigationProperty Name="Cricketer_Test_Statistics" Relationship="Self.FK__Cricketer__Crick__3B75D760" FromRole="Cricketers" ToRole="Cricketer_Test_Statistics" />
+          <Property Name="IsActive" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="login_id" />
+          </Key>
+          <Property Name="login_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="userpwd" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="First_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Last_Name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Birth_Date" Type="DateTime" Precision="3" />
+          <Property Name="Usertype" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Mobile" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="RememberMe" Type="Boolean" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="LastLoginDate" Type="DateTime" Precision="3" />
+          <Property Name="IsActive" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Photo">
+          <Key>
+            <PropertyRef Name="Photo_Id" />
+          </Key>
+          <Property Name="Photo_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Photo1" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK__Cricketer__Crick__3E52440B">
+          <End Role="Cricketers" Type="Self.Cricketer" Multiplicity="0..1" />
+          <End Role="Cricketer_Details" Type="Self.Cricketer_Details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_Details">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer_IP__ID__440B1D61">
+          <End Role="Cricketers" Type="Self.Cricketer" Multiplicity="0..1" />
+          <End Role="Cricketer_IPL_Statstics" Type="Self.Cricketer_IPL_Statstics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_IPL_Statstics">
+              <PropertyRef Name="ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer__Crick__38996AB5">
+          <End Role="Cricketers" Type="Self.Cricketer" Multiplicity="0..1" />
+          <End Role="Cricketer_ODI_Statistics" Type="Self.Cricketer_ODI_Statistics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_ODI_Statistics">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Cricketer__Crick__3B75D760">
+          <End Role="Cricketers" Type="Self.Cricketer" Multiplicity="0..1" />
+          <End Role="Cricketer_Test_Statistics" Type="Self.Cricketer_Test_Statistics" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cricketers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Cricketer_Test_Statistics">
+              <PropertyRef Name="Cricketer_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="incedoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cricketer_Details" EntityType="Self.Cricketer_Details" />
+          <EntitySet Name="Cricketer_IPL_Statstics" EntityType="Self.Cricketer_IPL_Statstics" />
+          <EntitySet Name="Cricketer_ODI_Statistics" EntityType="Self.Cricketer_ODI_Statistics" />
+          <EntitySet Name="Cricketer_Test_Statistics" EntityType="Self.Cricketer_Test_Statistics" />
+          <EntitySet Name="Cricketers" EntityType="Self.Cricketer" />
+          <EntitySet Name="logins" EntityType="Self.login" />
+          <EntitySet Name="Photos" EntityType="Self.Photo" />
+          <AssociationSet Name="FK__Cricketer__Crick__3E52440B" Association="Self.FK__Cricketer__Crick__3E52440B">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_Details" EntitySet="Cricketer_Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer_IP__ID__440B1D61" Association="Self.FK__Cricketer_IP__ID__440B1D61">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_IPL_Statstics" EntitySet="Cricketer_IPL_Statstics" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer__Crick__38996AB5" Association="Self.FK__Cricketer__Crick__38996AB5">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_ODI_Statistics" EntitySet="Cricketer_ODI_Statistics" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Cricketer__Crick__3B75D760" Association="Self.FK__Cricketer__Crick__3B75D760">
+            <End Role="Cricketers" EntitySet="Cricketers" />
+            <End Role="Cricketer_Test_Statistics" EntitySet="Cricketer_Test_Statistics" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="cricketModelStoreContainer" CdmEntityContainer="incedoEntities">
+          <EntitySetMapping Name="Cricketer_Details">
+            <EntityTypeMapping TypeName="cricketModel.Cricketer_Details">
+              <MappingFragment StoreEntitySet="Cricketer_Details">
+                <ScalarProperty Name="Details_ID" ColumnName="Details_ID" />
+                <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+                <ScalarProperty Name="Team" ColumnName="Team" />
+                <ScalarProperty Name="ODI_Runs" ColumnName="ODI_Runs" />
+                <ScalarProperty Name="Test_Runs" ColumnName="Test_Runs" />
+                <ScalarProperty Name="Wickets" ColumnName="Wickets" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cricketer_IPL_Statstics">
+            <EntityTypeMapping TypeName="cricketModel.Cricketer_IPL_Statstics">
+              <MappingFragment StoreEntitySet="Cricketer_IPL_Statstics">
+                <ScalarProperty Name="IPL_Id" ColumnName="IPL_Id" />
+                <ScalarProperty Name="Team_Name" ColumnName="Team_Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cricketer_ODI_Statistics">
+            <EntityTypeMapping TypeName="cricketModel.Cricketer_ODI_Statistics">
+              <MappingFragment StoreEntitySet="Cricketer_ODI_Statistics">
+                <ScalarProperty Name="ODI_ID" ColumnName="ODI_ID" />
+                <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Half_Century" ColumnName="Half_Century" />
+                <ScalarProperty Name="Century" ColumnName="Century" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cricketer_Test_Statistics">
+            <EntityTypeMapping TypeName="cricketModel.Cricketer_Test_Statistics">
+              <MappingFragment StoreEntitySet="Cricketer_Test_Statistics">
+                <ScalarProperty Name="Test_ID" ColumnName="Test_ID" />
+                <ScalarProperty Name="Cricketer_ID" ColumnName="Cricketer_ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Half_Century" ColumnName="Half_Century" />
+                <ScalarProperty Name="Century" ColumnName="Century" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cricketers">
+            <EntityTypeMapping TypeName="cricketModel.Cricketer">
+              <MappingFragment StoreEntitySet="Cricketers">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ODI" ColumnName="ODI" />
+                <ScalarProperty Name="Test" ColumnName="Test" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="logins">
+            <EntityTypeMapping TypeName="cricketModel.login">
+              <MappingFragment StoreEntitySet="login">
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="login_id" ColumnName="login_id" />
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="userpwd" ColumnName="userpwd" />
+                <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+                <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+                <ScalarProperty Name="Birth_Date" ColumnName="Birth_Date" />
+                <ScalarProperty Name="Usertype" ColumnName="Usertype" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="RememberMe" ColumnName="RememberMe" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Photos">
+            <EntityTypeMapping TypeName="cricketModel.Photo">
+              <MappingFragment StoreEntitySet="Photos">
+                <ScalarProperty Name="Photo_Id" ColumnName="Photo_Id" />
+                <ScalarProperty Name="Photo1" ColumnName="Photo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

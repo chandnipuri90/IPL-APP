@@ -1,0 +1,66 @@
+﻿@model Ipl.Models.Cricketer_Details
+
+@{
+
+    Layout = "~/Views/Shared/internal_Layout.cshtml";
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Cricketer_Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Team)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ODI_Runs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ODI_Runs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Test_Runs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Test_Runs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wickets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wickets)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cricketer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cricketer.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

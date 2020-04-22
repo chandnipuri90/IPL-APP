@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Cricket_IPL", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>  @*//@html.actionlink(given name,action,controller name)*@
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Cricketer_Details", "Index", "Cricketer_Details")</li>
+                    <li>@Html.ActionLink("Cricketers", "Index", "Cricketers")</li>
+                    <li>@Html.ActionLink("Cricketer_Test_Statistics", "Index", "Cricketer_Test_Statistics")</li>
+                    <li>@Html.ActionLink("Cricketer_ODI_Statistics", "Index", "Cricketer_ODI_Statistics")</li>
+                    <li>@Html.ActionLink("Cricketer_IPL_Statstics", "Index", "Cricketer_IPL_Statstics")</li>
+                </ul>
+            </div>
+            <div>
+                <div class=" right">
+                    <ul class="nav navbar-nav navbar-right"  style="color:white" >
+                        <li> welcome @Session["username"]</li>
+                        <li>@Html.ActionLink("Logout", "Logout", "Login")</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container body-content">
+
+        @RenderBody()
+        <hr />
+        <footer>
+
+            <p>&copy; @DateTime.Now.Year - Cricket_IPL</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

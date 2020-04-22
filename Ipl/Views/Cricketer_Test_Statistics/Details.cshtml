@@ -1,0 +1,52 @@
+﻿@model Ipl.Models.Cricketer_Test_Statistics
+
+@{
+
+    Layout = "~/Views/Shared/internal_Layout.cshtml";
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cricketer_Test_Statistics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Half_Century)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Half_Century)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Century)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Century)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cricketer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cricketer.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Test_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

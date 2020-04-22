@@ -1,0 +1,84 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Ipl.Models.Cricketer>
+
+
+@{
+
+    Layout = "~/Views/Shared/internal_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+  
+</p>
+<p></p>
+
+<p>
+    @using (Html.BeginForm())
+    {
+
+
+        @Html.DropDownList("SearchBy",   new List<SelectListItem>
+{
+    new SelectListItem{Text="Name", Value="Name", Selected=true},   @*Value of selectlistitem is matched with SearchBy*@
+    new SelectListItem{Text="ODI",Value="ODI"},
+    new SelectListItem{Text="Test",Value="Test"},
+    new SelectListItem{Text="Sachin",Value="Sachin"},//vlue is directely searched from dropdown after clicking 
+
+}, "Search Cricketers Details"
+    );
+
+
+        @* u can  select search option through radio button as well as dropdownlist *@
+        <b>Search By</b>
+        @Html.RadioButton("SearchBy", "Name") <text>Name</text>
+        @Html.RadioButton("SearchBy", "ODI") <text>ODI</text>
+        @Html.RadioButton("SearchBy", "Test") <text>Test</text>
+        @Html.TextBox("Search") <input type="submit" value="search" />
+
+    }
+</p>
+    
+
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().ODI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Test)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ODI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Test)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["Search_By"], search = Request.QueryString["search"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayItemSliceAndTotal = true })
+
+</table>

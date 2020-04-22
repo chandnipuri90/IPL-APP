@@ -1,0 +1,36 @@
+﻿@model Ipl.Models.Cricketer_IPL_Statstics
+
+@{
+
+    Layout = "~/Views/Shared/internal_Layout.cshtml";
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cricketer_IPL_Statstics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Team_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cricketer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cricketer.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IPL_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
